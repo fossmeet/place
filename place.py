@@ -42,3 +42,21 @@ fillcolor('#08fee5')
 begin_fill()
 circle(23)
 end_fill()
+
+# my code
+
+forward(20)
+right(200)
+forward(260)
+
+#Ashwin
+red =Turtle()
+
+red.right(1)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)
+

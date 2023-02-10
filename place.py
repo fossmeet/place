@@ -124,29 +124,6 @@ pen.write("                                        |_|                          
 #------------------#
 
 
-# Debian - Spiral Helix
-colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
-def create_spiral_helix():
-    setx(0)
-    sety(0)
-    speed(0)
-    for i in range(10):
-        setx(20*i)
-        sety(20*i)
-        fillcolor(colors[i%6])
-        begin_fill()
-        circle(50*i)
-        circle(-50*i)
-        left(i)
-        end_fill()
-    speed(0)
-
-create_spiral_helix()
-if __name__ == "__main__":
-    create_spiral_helix()
-else:
-    create_spiral_helix()
-
 #LEAF VILLAGE MWUHAHAHA
 
 a = Turtle()

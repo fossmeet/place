@@ -43,13 +43,9 @@ begin_fill()
 circle(23)
 end_fill()
 
-# my code
 
-forward(20)
-right(200)
-forward(260)
 
-# just fun by spid**
+# spidy
 
 color('red')
 fillcolor('blue')
@@ -62,6 +58,12 @@ fd(200)
 left(5)
 end_fill()
 write("FOSSMEET", font=("Arial", 20, "normal"))
+# my code
+
+forward(20)
+right(200)
+forward(260)
+
 
 # ------- -------- #
 #  Nee shooperada! #

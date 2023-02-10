@@ -88,6 +88,11 @@ pen.write("                                        |_|                          
 # nee shooperada   #
 #------------------#
 
+#dracu
+fillcolor('#d70a53')
+begin_fill()
+circle(23)
+end_fill()
 
 #Ashwin
 red =Turtle()
@@ -99,3 +104,4 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+

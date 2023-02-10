@@ -95,7 +95,7 @@ def create_spiral_helix():
     setx(0)
     sety(0)
     speed(2)
-    for i in range(100):
+    for i in range(50):
         fillcolor(colors[i%6])
         begin_fill()
         circle(5*i)

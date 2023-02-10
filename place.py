@@ -43,6 +43,21 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+
+# spidy
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))
 # my code
 
 forward(20)
@@ -89,6 +104,28 @@ pen.write("                                        |_|                          
 #------------------#
 
 
+# Debian - Spiral Helix
+colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
+def create_spiral_helix():
+    setx(0)
+    sety(0)
+    speed(0)
+    for i in range(10):
+        fillcolor(colors[i%6])
+        begin_fill()
+        circle(5*i)
+        circle(-5*i)
+        left(i)
+        end_fill()
+    speed(5)
+
+create_spiral_helix()
+if __name__ == "__main__":
+    create_spiral_helix()
+else:
+    create_spiral_helix()
+
+
 #Ashwin
 red =Turtle()
 
@@ -105,3 +142,17 @@ fillcolor('red')
 begin_fill()
 circle(34)
 end_fill()
+
+#Alen
+def draw_star(size, x, y):
+
+    penup()
+    goto(x, y)
+    pendown()
+    for i in range(5):
+        forward(size)
+        right(144)
+
+speed("fastest")
+
+draw_star(10, 300, 100)

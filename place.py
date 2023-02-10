@@ -73,6 +73,10 @@ pen.write("| '_ \\ / _ \\ / _ \\ / __| '_ \\ / _ \\ / _ \\| '_ \\ / _ \\ '__/ _`
 pen.penup()
 pen.goto(-500,40)
 pen.pendown()
+pen.write("| | | |  __/  __/ \\__ \\ | | | (_) | (_) | |_) |  __/ | | (_| | (_| | (_| |", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,20)
+pen.pendown()
 
 # ------- -------- #
 #      end         #

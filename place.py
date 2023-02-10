@@ -77,11 +77,6 @@ pen.write("| | | |  __/  __/ \\__ \\ | | | (_) | (_) | |_) |  __/ | | (_| | (_| 
 pen.penup()
 pen.goto(-500,20)
 pen.pendown()
-pen.write("|_| |_|\\___|\\___| |___/_| |_|\\___/ \\___/| .__/ \\___|_|  \\__,_|\\__,_|\\__,_|", align="left", font=("monospace", 16, "bold"))
-pen.penup()
-pen.goto(-500,0)
-pen.pendown()
-pen.write("                                        |_|                               ", align="left", font=("monospace", 16, "bold"))
 
 # ------- -------- #
 #      end         #
@@ -99,3 +94,6 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+
+

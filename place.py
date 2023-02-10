@@ -1,5 +1,6 @@
 from turtle import *
 import random
+import turtle
 
 Screen().setup(width=1.0, height=1.0)
 speed(0)
@@ -11,7 +12,26 @@ sety(-170)
 setpos((-640, 512))
 setx(640)
 setpos((0, -170))
+
 end_fill()
+
+t = Turtle()
+t.color("yellow")
+t.penup()
+t.setpos(100,100)
+t.begin_fill()
+
+t.circle(100, 300)
+t.left(90)
+t.forward(100)
+t.right(120)
+t.forward(100)
+t.end_fill()
+
+t.penup()
+
+
+t.hideturtle()
 
 fillcolor('#d70a53')
 begin_fill()

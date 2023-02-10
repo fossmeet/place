@@ -121,3 +121,16 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+#Alen
+
+penup()
+goto(0,300)
+pendown()
+color('black', 'red')
+begin_fill()
+while i<75:
+    forward(40)
+    left(170)
+    i+=1
+end_fill()

@@ -13,6 +13,26 @@ setx(640)
 setpos((0, -170))
 end_fill()
 
+##madhav
+t = Turtle()
+t.color("yellow")
+t.penup()
+t.setpos(100,100)
+t.begin_fill()
+
+t.circle(10, 300)
+t.left(90)
+t.forward(10)
+t.right(120)
+t.forward(10)
+t.end_fill()
+
+t.penup()
+
+
+t.hideturtle()
+##endmadhav
+
 fillcolor('#d70a53')
 begin_fill()
 sety(-512)

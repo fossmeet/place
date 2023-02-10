@@ -45,5 +45,3 @@ for i in range(150):
   red.forward(2)
   red.right(2)
   
-
-turtle.done()

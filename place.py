@@ -136,3 +136,18 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+
+#Alen
+def draw_star(size, x, y):
+
+    penup()
+    goto(x, y)
+    pendown()
+    for i in range(5):
+        forward(size)
+        right(144)
+
+speed("fastest")
+
+draw_star(10, 300, 100)

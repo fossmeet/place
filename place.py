@@ -50,6 +50,32 @@ right(200)
 forward(260)
 
 
+
+
+
+~AnJoMA~
+t = turtle.Turtle()
+s = 50
+# drawing first side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing second side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing third side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing fourth side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+~end~
+
+
+
+
 # ------- -------- #
 #  Nee shooperada! #
 #------------------#
@@ -98,4 +124,3 @@ red.right(2)
 red.forward(2)
 red.right(2)
 red.forward(2)
-red.right(2)

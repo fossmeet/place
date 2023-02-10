@@ -99,7 +99,6 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
-
 # Debian - Spiral Helix
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 def create_spiral_helix():

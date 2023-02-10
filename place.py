@@ -52,7 +52,10 @@ forward(260)
 #Ashwin
 red =Turtle()
 
-for i in range(150):
-  red.right(1)
-  red.forward(2)
-  red.right(2)
+red.right(1)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)

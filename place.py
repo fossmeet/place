@@ -90,3 +90,5 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+pen.write("HEHE Loading --- ", align="left", font=("monospace", 16, "bold"))

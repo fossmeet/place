@@ -61,19 +61,22 @@ red.forward(2)
 red.right(2)
 
 # Debian - Spiral Helix
+colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 def create_spiral_helix():
-    turtle.speed(2)
+    setx(0)
+    sety(0)
+    speed(2)
     for i in range(100):
-        turtle.circle(5*i)
-        turtle.circle(-5*i)
-        turtle.left(i)
+        fillcolor(colors[i%6])
+        begin_fill()
+        circle(5*i)
+        circle(-5*i)
+        left(i)
+        end_fill()
+    speed(0)
 
-    turtle.speed(0)
-
-
+create_spiral_helix()
 if __name__ == "__main__":
     create_spiral_helix()
-    return
 else:
     create_spiral_helix()
-    return

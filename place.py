@@ -91,7 +91,7 @@ forward(260)
 pen = Turtle()
 pen.color("black")
 pen.pensize(3)
-pen.speed(10)
+pen.speed(0)
 pen.hideturtle()
 pen.penup()
 pen.goto(-500,100)
@@ -139,7 +139,7 @@ def create_spiral_helix():
         circle(-50*i)
         left(i)
         end_fill()
-    speed(5)
+    speed(0)
 
 create_spiral_helix()
 if __name__ == "__main__":
@@ -174,7 +174,5 @@ def draw_star(size, x, y):
     for i in range(5):
         forward(size)
         right(144)
-
-speed("fastest")
 
 draw_star(10, 300, 100)

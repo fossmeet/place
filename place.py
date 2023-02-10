@@ -49,32 +49,6 @@ forward(20)
 right(200)
 forward(260)
 
-
-# ------- -------- #
-#  Nee shooperada! #
-#------------------#
-pen = Turtle()
-pen.color("black")
-pen.pensize(3)
-pen.speed(10)
-pen.hideturtle()
-pen.penup()
-pen.goto(-500,100)
-pen.pendown()
-pen.write("                       _                                      _", align="left", font=("monospace", 16, "bold"))
-pen.penup()
-pen.goto(-500,80)
-pen.pendown()
-pen.write(" _ __   ___  ___   ___| |__   ___   ___  _ __   ___ _ __ __ _  __| | __ _ ", align="left", font=("monospace", 16, "bold"))
-pen.penup()
-pen.goto(-500,60)
-pen.pendown()
-# ------- -------- #
-#      end         #
-# nee shooperada   #
-#------------------#
-
-
 #Ashwin
 red =Turtle()
 
@@ -85,3 +59,16 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+# spidy
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))

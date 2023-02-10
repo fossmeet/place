@@ -48,3 +48,17 @@ end_fill()
 forward(20)
 right(200)
 forward(260)
+
+# just fun by spid**
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))

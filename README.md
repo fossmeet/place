@@ -2,7 +2,7 @@
 
 Kinda like r/place, but with git. Fork this repo, add your python turtle code and make a PR. We'll see where we end up!
 
-We have a 1280x1024 canvas where you can draw anything your heart desires. 
+We have a 1280x1024 [canvas](https://place.fossmeet.net) where you can draw anything your heart desires.
 
 ## Points to note
 
@@ -11,6 +11,8 @@ We have a 1280x1024 canvas where you can draw anything your heart desires.
 - Don't import any libraries other than the already imported ones.
 - Use any turtle method you want!
 - Don't edit more than 10,000 pixels per commit.
+- Don't use the `done()` function or any of the other halt functionss. 
+  - you can use it to see the canvas in your own machine, but don't commit it finally.
 - Have fun!
 
 ## Raising Issues

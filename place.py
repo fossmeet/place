@@ -85,3 +85,20 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+def curve(): # Method to draw curve
+    for i in range(20): # To draw the curve step by step
+        red.right(1)
+        red.forward(1)
+
+def heart():  # Method to draw full Heart
+    red.fillcolor('red')
+    red.begin_fill()
+    red.left(14)
+    red.forward(11)
+    curve() # Left Curve
+    red.left(12)
+    curve() # Right Curve
+    red.forward(11)
+    red.end_fill()
+heart()

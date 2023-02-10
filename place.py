@@ -38,6 +38,11 @@ setx(16)
 setpos((0, -7))
 end_fill()
 
+fillcolor('#08fee5')
+begin_fill()
+circle(23)
+end_fill()
+
 red =Turtle()
 
 for i in range(150):

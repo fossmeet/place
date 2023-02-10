@@ -94,15 +94,15 @@ colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 def create_spiral_helix():
     setx(0)
     sety(0)
-    speed(2)
-    for i in range(5):
+    speed(0)
+    for i in range(10):
         fillcolor(colors[i%6])
         begin_fill()
         circle(5*i)
         circle(-5*i)
         left(i)
         end_fill()
-    speed(0)
+    speed(5)
 
 create_spiral_helix()
 if __name__ == "__main__":

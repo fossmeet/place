@@ -42,3 +42,9 @@ fillcolor('#08fee5')
 begin_fill()
 circle(23)
 end_fill()
+
+# my code
+
+forward(20)
+right(200)
+forward(260)

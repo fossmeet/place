@@ -89,16 +89,6 @@ pen.write("                                        |_|                          
 #------------------#
 
 
-#Ashwin
-red =Turtle()
-
-red.right(1)
-red.forward(2)
-red.right(2)
-red.forward(2)
-red.right(2)
-red.forward(2)
-red.right(2)
 # Debian - Spiral Helix
 colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
 def create_spiral_helix():
@@ -119,3 +109,15 @@ if __name__ == "__main__":
     create_spiral_helix()
 else:
     create_spiral_helix()
+
+
+#Ashwin
+red =Turtle()
+
+red.right(1)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)

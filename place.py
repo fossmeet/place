@@ -90,3 +90,10 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+
+setpos(100,100)
+fillcolor('red')
+begin_fill()
+circle(34)
+end_fill()

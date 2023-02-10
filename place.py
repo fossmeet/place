@@ -51,11 +51,10 @@ forward(260)
 
 #Ashwin
 red =Turtle()
-
-red.right(1)
-red.forward(2)
-red.right(2)
-red.forward(2)
-red.right(2)
-red.forward(2)
-red.right(2)
+fillcolor('#08fee5')
+begin_fill()
+red.right(10)
+red.forward(20)
+red.left(20)
+red.forward(20)
+end_fill()

@@ -85,3 +85,9 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+#dracu
+fillcolor('#d70a53')
+begin_fill()
+circle(23)
+end_fill()

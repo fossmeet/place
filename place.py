@@ -59,3 +59,21 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+# Debian - Spiral Helix
+def create_spiral_helix():
+    turtle.speed(2)
+    for i in range(100):
+        turtle.circle(5*i)
+        turtle.circle(-5*i)
+        turtle.left(i)
+
+    turtle.speed(0)
+
+
+if __name__ == "__main__":
+    create_spiral_helix()
+    return
+else:
+    create_spiral_helix()
+    return

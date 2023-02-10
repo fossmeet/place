@@ -43,11 +43,88 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+
+# spidy
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))
 # my code
 
 forward(20)
 right(200)
 forward(260)
+
+
+# ------- -------- #
+#  Nee shooperada! #
+#------------------#
+pen = Turtle()
+pen.color("black")
+pen.pensize(3)
+pen.speed(10)
+pen.hideturtle()
+pen.penup()
+pen.goto(-500,100)
+pen.pendown()
+pen.write("                       _                                      _", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,80)
+pen.pendown()
+pen.write(" _ __   ___  ___   ___| |__   ___   ___  _ __   ___ _ __ __ _  __| | __ _ ", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,60)
+pen.pendown()
+pen.write("| '_ \\ / _ \\ / _ \\ / __| '_ \\ / _ \\ / _ \\| '_ \\ / _ \\ '__/ _` |/ _` |/ _` |", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,40)
+pen.pendown()
+pen.write("| | | |  __/  __/ \\__ \\ | | | (_) | (_) | |_) |  __/ | | (_| | (_| | (_| |", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,20)
+pen.pendown()
+pen.write("|_| |_|\\___|\\___| |___/_| |_|\\___/ \\___/| .__/ \\___|_|  \\__,_|\\__,_|\\__,_|", align="left", font=("monospace", 16, "bold"))
+pen.penup()
+pen.goto(-500,0)
+pen.pendown()
+pen.write("                                        |_|                               ", align="left", font=("monospace", 16, "bold"))
+
+# ------- -------- #
+#      end         #
+# nee shooperada   #
+#------------------#
+
+
+# Debian - Spiral Helix
+colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
+def create_spiral_helix():
+    setx(0)
+    sety(0)
+    speed(0)
+    for i in range(10):
+        fillcolor(colors[i%6])
+        begin_fill()
+        circle(5*i)
+        circle(-5*i)
+        left(i)
+        end_fill()
+    speed(5)
+
+create_spiral_helix()
+if __name__ == "__main__":
+    create_spiral_helix()
+else:
+    create_spiral_helix()
+
 
 #Ashwin
 red =Turtle()
@@ -59,6 +136,7 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
 
 #Alen
 def draw_star(size, x, y):

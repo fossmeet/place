@@ -43,11 +43,28 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+
+# spidy
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))
 # my code
 
 forward(20)
 right(200)
 forward(260)
+
+
 
 #Ashwin
 red =Turtle()

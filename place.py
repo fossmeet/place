@@ -69,11 +69,6 @@ pen.write(" _ __   ___  ___   ___| |__   ___   ___  _ __   ___ _ __ __ _  __| | 
 pen.penup()
 pen.goto(-500,60)
 pen.pendown()
-pen.write("| '_ \\ / _ \\ / _ \\ / __| '_ \\ / _ \\ / _ \\| '_ \\ / _ \\ '__/ _` |/ _` |/ _` |", align="left", font=("monospace", 16, "bold"))
-pen.penup()
-pen.goto(-500,40)
-pen.pendown()
-
 # ------- -------- #
 #      end         #
 # nee shooperada   #
@@ -90,3 +85,11 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+#Alen
+penup()
+goto(300, 100)
+pendown()
+for i in range(5):
+    forward(30)
+    right(144)

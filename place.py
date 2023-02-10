@@ -13,6 +13,26 @@ setx(640)
 setpos((0, -170))
 end_fill()
 
+##madhav
+t = Turtle()
+t.color("yellow")
+t.penup()
+t.setpos(100,100)
+t.begin_fill()
+
+t.circle(40, 300)
+t.left(90)
+t.forward(40)
+t.right(120)
+t.forward(40)
+t.end_fill()
+
+t.penup()
+
+
+t.hideturtle()
+##endmadhav
+
 fillcolor('#d70a53')
 begin_fill()
 sety(-512)
@@ -43,6 +63,21 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+
+# spidy
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))
 # my code
 
 forward(20)
@@ -96,10 +131,12 @@ def create_spiral_helix():
     sety(0)
     speed(0)
     for i in range(10):
+        setx(20*i)
+        sety(20*i)
         fillcolor(colors[i%6])
         begin_fill()
-        circle(5*i)
-        circle(-5*i)
+        circle(50*i)
+        circle(-50*i)
         left(i)
         end_fill()
     speed(5)
@@ -121,6 +158,26 @@ red.forward(2)
 red.right(2)
 red.forward(2)
 red.right(2)
+
+setpos(100,100)
+fillcolor('red')
+begin_fill()
+circle(34)
+end_fill()
+
+#Alen
+def draw_star(size, x, y):
+
+    penup()
+    goto(x, y)
+    pendown()
+    for i in range(5):
+        forward(size)
+        right(144)
+
+speed("fastest")
+
+draw_star(10, 300, 100)
 
 # Rithas K
 # Sorry for the long lines :)

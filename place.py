@@ -30,8 +30,10 @@ sety(-170)
 end_fill()
 red = Turtle() # Assigning "Red" as name of the turtle
 
-red.right(1)
-red.forward(1)
-red.forward(15)
+
+for i in range(10):
+  red.right(1)
+  red.forward(1)
+  red.right(2)
 
 turtle.done()

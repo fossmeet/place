@@ -147,6 +147,32 @@ if __name__ == "__main__":
 else:
     create_spiral_helix()
 
+#LEAF VILLAGE MWUHAHAHA
+
+a = Turtle()
+a.penup()
+a.goto(0,300)
+a.pendown()
+a.width(5)
+
+
+for i in range(38):
+    a.forward(i)
+    a.right(20)
+
+a.left(90)
+a.forward(100)
+a.penup()
+a.goto(-100,300)
+a.pendown()
+a.right(150)
+a.forward(100)
+a.left(113)
+a.forward(100)
+
+a.penup()
+a.goto(0,0)
+a.pendown()
 
 #Ashwin
 red =Turtle()

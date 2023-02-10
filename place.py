@@ -43,6 +43,11 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+forward(20)
+right(200)
+forward(260)
+
 red =Turtle()
 
 for i in range(150):

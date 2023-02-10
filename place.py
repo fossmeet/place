@@ -77,7 +77,6 @@ pen.pendown()
 
 #Ashwin
 red =Turtle()
-
 red.right(1)
 red.forward(2)
 red.right(2)

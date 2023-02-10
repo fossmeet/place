@@ -37,3 +37,13 @@ setpos((-64, 5))
 setx(16)
 setpos((0, -7))
 end_fill()
+
+red =Turtle()
+
+for i in range(150):
+  red.right(1)
+  red.forward(2)
+  red.right(2)
+  
+
+turtle.done()

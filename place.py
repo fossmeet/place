@@ -46,3 +46,49 @@ def txt():
 txt()
 pen.end_fill()
 t.exitonclick()
+fillcolor('#d70a53')
+begin_fill()
+sety(-512)
+setx(640)
+sety(512)
+end_fill()
+
+setx(-640)
+
+fillcolor('#072c61')
+begin_fill()
+sety(-512)
+setx(0)
+sety(-170)
+end_fill()
+
+fillcolor('#00ff00')
+begin_fill()
+penup()
+sety(-17)
+setpos((-64, 5))
+setx(16)
+setpos((0, -7))
+end_fill()
+
+fillcolor('#08fee5')
+begin_fill()
+circle(23)
+end_fill()
+
+# my code
+
+forward(20)
+right(200)
+forward(260)
+
+#Ashwin
+red =Turtle()
+
+red.right(1)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)
+red.forward(2)
+red.right(2)

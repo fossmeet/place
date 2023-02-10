@@ -1,6 +1,6 @@
 from turtle import *
 import random
-
+turtle.title("AnJoMa HACKED")
 Screen().setup(width=1.0, height=1.0)
 speed(0)
 
@@ -15,18 +15,18 @@ end_fill()
 
 fillcolor('#d70a53')
 begin_fill()
-sety(-512)
-setx(640)
-sety(512)
+sety(-52)
+setx(40)
+sety(52)
 end_fill()
 
 setx(-640)
 
 fillcolor('#072c61')
 begin_fill()
-sety(-512)
+sety(-12)
 setx(0)
-sety(-170)
+sety(-70)
 end_fill()
 
 fillcolor('#00ff00')
@@ -42,9 +42,3 @@ fillcolor('#08fee5')
 begin_fill()
 circle(23)
 end_fill()
-
-# my code
-
-forward(20)
-right(200)
-forward(260)

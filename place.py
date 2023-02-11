@@ -910,9 +910,14 @@ color('orange')
 goto(-250,150)
 write("F",align='left',move=True, font=('Courier', 50, 'bold'))
 
+pen = Turtle()
+pen.color("black")
+pen.pensize(3)
+pen.speed(0)
+pen.hideturtle()
 pen.penup()
 pen.goto(-200,+200)
 pen.pendown()
-pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 16, "bold"))         
+pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 10, "normal"))         
 
 ####Ashwin End###

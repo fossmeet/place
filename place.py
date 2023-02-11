@@ -828,3 +828,8 @@ def speaker():
     end_fill()
 	
 person((0,0))
+
+#adding banner
+banner_b()
+
+

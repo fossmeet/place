@@ -393,12 +393,5 @@ tur.right(136)
 tur.circle(56, 90)
 tur.up()
 
-tur.goto(-450, -150)
-tur.write("FOSSMEET'23...", font=("Indie Flower",30))
-
-tur.goto(150, -150)
-turtle.speed(3)
-tur.write("HEY, KEEP SMILING...", font=("Indie Flower",30))
-
 # End
 # Himanshu Dewangan

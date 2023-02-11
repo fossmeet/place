@@ -851,6 +851,10 @@ for i in range(7):
 x=x+30
 person((x,y))
 
+for i in range(3):
+    x=x+30
+    person((x,y))
+	
 """
 #All comands to make the aryabhatta hall scean
 banner_b()

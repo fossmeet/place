@@ -906,4 +906,8 @@ exitonclick()
 x=x+30
 person((x,y))
 
+penup()
+goto(30,50)
+color(str(randomColor()))
+write("Future of Foss",align='left',move=True, font=('ariel', 12, 'normal'))
 ####Ashwin End###

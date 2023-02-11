@@ -333,5 +333,3 @@ circle(15, 110)
 circle(50, 85)
 
 penup()
-
-done()

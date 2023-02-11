@@ -333,3 +333,8 @@ circle(15, 110)
 circle(50, 85)
 
 penup()
+#dracu
+fillcolor('#d70a53')
+begin_fill()
+circle(23)
+end_fill()

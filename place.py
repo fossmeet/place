@@ -532,3 +532,29 @@ for i in range(3):
     end_fill()
     up()
     lt(30)
+
+# Draw heart
+pen = Turtle()
+def curve():
+    for i in range(200):
+        pen.right(1)
+        pen.forward(1)
+def heart():
+    pen.left(140)
+    pen.forward(113)
+    curve()
+    pen.left(120)
+    curve()
+    pen.forward(112)
+def txt():
+    pen.up()
+    pen.setpos(-200, 195)
+    pen.down()
+
+    pen.color('lightgreen')
+    pen.write("FOSSMEET'23", font=(
+      "Verdana", 12, "bold"))
+heart()
+txt()
+pen.ht()
+pen.end_fill()

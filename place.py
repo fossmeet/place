@@ -909,5 +909,6 @@ person((x,y))
 color('orange')
 goto(-250,150)
 write("F",align='left',move=True, font=('Courier', 50, 'bold'))
+write("OS",align='left',move=True, font=('Courier', 50, 'bold'))
 
 ####Ashwin End###

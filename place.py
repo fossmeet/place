@@ -487,5 +487,4 @@ def person(pos):
 
     end_fill()
 
-person((0,0))#just testing
 #######END ASHWIN######

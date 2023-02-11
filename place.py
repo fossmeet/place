@@ -259,7 +259,11 @@ forward(20)
 left(45)
 forward(20)
 
-home() 
+penup()
+
+Turtle()
+ 
+home()
 pensize(5)
 penup()
 goto(-270, 300)
@@ -329,3 +333,5 @@ circle(15, 110)
 circle(50, 85)
 
 penup()
+
+done()

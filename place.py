@@ -903,4 +903,7 @@ for i in range(7):
 exitonclick()
 
 """
+x=x+30
+person((x,y))
+
 ####Ashwin End###

@@ -426,7 +426,6 @@ for i in range(3):
     end_fill()
     up()
     lt(30)
-done()
 
 
 # Himanshu Dewangan

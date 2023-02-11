@@ -122,7 +122,19 @@ pen.write("                                        |_|                          
 # nee shooperada   #
 #------------------#
 
+##Learning From Nee
+#Trying to write Ashwin
+pen = Turtle()
+pen.color("black")
+pen.pensize(3)
+pen.speed(0)
+pen.hideturtle()
+pen.penup()
+pen.pendown()
+pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))         
 
+
+##
 #LEAF VILLAGE MWUHAHAHA
 
 a = Turtle()

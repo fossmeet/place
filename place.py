@@ -848,4 +848,5 @@ for i in range(7):
     x=x+30
     person((x,y))
 
+walk()
 

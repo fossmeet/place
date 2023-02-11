@@ -136,7 +136,7 @@ pen.write("  /$$$$$$            /$$                     /$$          ",align="le
 pen.penup()
 pen.goto(-500,-20)
 pen.pendown()
-pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))   
+#pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))   
 
 """
 Want to write this

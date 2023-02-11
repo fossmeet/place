@@ -455,7 +455,7 @@ pendown()
 setup(640,640)
 bgcolor('black')
 col = '#DD4814'
-R = 100
+R = 75
 r = 38.91*R/100
 w = 19.25*R/100
 r2 = 13.39*R/100

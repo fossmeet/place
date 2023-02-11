@@ -574,3 +574,174 @@ r.left(135)
 r.forward(90.8)
 
 
+###Ashwin
+def randomColor():
+    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+    return color
+
+def walk():
+    fillcolor("#FF0000")
+    w,h=60,384
+    goto(0,-512)
+    seth(0)
+    begin_fill()
+    setx(w+30)
+    goto(w,-128)
+    setx(-w)
+    goto(-w-30,-512)
+    goto(0,-512)
+    end_fill()
+
+def banner_b():
+    fillcolor("#B2BEB5")
+    w,h=1280/2,384
+    goto(-320,-128)
+    seth(0)
+    begin_fill()
+    setx(+320)
+    sety(256)
+    setx(-320)
+    end_fill()
+
+def banner():
+    fillcolor("#F4DEC6")
+    w,h=1280/2,384
+    goto(-320+10,-128+10)
+    seth(0)
+    begin_fill()
+    setx(+320-10)
+    sety(256-10)
+    setx(-320+10)
+    end_fill()
+
+def screen():
+    fillcolor("#FFFFFF")
+    goto(20,-100)
+    seth(0)
+    begin_fill()
+    setx(+300)
+    sety(100)
+    setx(20)
+    sety(-100)
+    end_fill()
+    
+    goto(30,80)
+    color(str(randomColor()))
+    write("Inauguration and opening Note ",align='left',move=True, font=('ariel', 12, 'normal'))
+
+    goto(30,50)
+    color(str(randomColor()))
+    write("Future of Foss",align='left',move=True, font=('ariel', 12, 'normal'))
+
+    goto(30,20)
+    color(str(randomColor()))
+    write("Paperd.ink's Journey ",align='left',move=True, font=('ariel', 12, 'normal'))
+
+
+    goto(30,-10)
+    color(str(randomColor()))
+    write("Git's Bit",align='left',move=True, font=('ariel', 12, 'normal'))
+  
+    goto(30,-40)
+    color(str(randomColor()))
+    write("Introduction to Debian GNU/Linux",align='left',move=True, font=('ariel', 12, 'normal'))
+  
+    goto(30,-70)
+    color(str(randomColor()))
+    write("AI for solving regional problems",align='left',move=True, font=('ariel', 12, 'normal'))
+
+
+
+def fosswrite():
+    color('orange')
+    goto(-250,150)
+    write("FOSSMEET ' 23",align='left',move=True, font=('Courier', 50, 'bold'))
+
+def wal_l():
+    fillcolor("#835F5F")
+    goto(-640,-512)
+    seth(0)
+    begin_fill()
+    goto(-320,-128)
+    sety(256)
+    goto(-640,+512)
+    end_fill()
+
+def wal_r():
+    fillcolor("#835F5F")
+    goto(+640,-512)
+    seth(0)
+    begin_fill()
+    goto(+320,-128)
+    sety(256)
+    goto(+640,+512)
+    end_fill()
+
+def person(pos):
+    penup()
+
+    height=random.choice([21,22,19,20,15])
+
+    goto(pos)
+    fillcolor(str(randomColor()))
+    seth(0)
+    begin_fill()
+    fd(height)
+    left(90)
+    fd(height)
+    circle(height/2,180)
+    fd(height)
+    end_fill()
+
+    #Head
+    hed_clr=str(randomColor())
+    fillcolor(hed_clr)
+    seth(0)
+    begin_fill()
+    goto(pos[0]+height*0.5,pos[1]+height*1.7)
+    circle(height/2)
+    color(hed_clr)
+    if (random.choice([True,False])):
+       
+        stamp()
+        seth(180)
+        stamp()
+
+    end_fill()
+
+def speaker():
+    pos=(-230,-100)
+    penup()
+
+    height=30
+
+    goto(pos)
+    fillcolor('#FFD700')
+    color('#FFD700')
+    seth(0)
+    begin_fill()
+    fd(height)
+    left(90)
+    fd(height)
+    circle(height/2,180)
+    fd(height)
+    end_fill()
+
+    #Head
+    fillcolor('#FFD700')
+    seth(0)
+    begin_fill()
+    goto(pos[0]+height*0.5,pos[1]+height*1.7)
+    circle(height/2)
+    """
+    if (random.choice([True,False])):
+        print("Stamped")
+        stamp()
+        seth(180)
+        stamp()
+    """
+
+    end_fill()
+person((0,0))
+
+##END  Ashwin

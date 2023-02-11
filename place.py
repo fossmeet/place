@@ -448,3 +448,19 @@ pendown()
 forward(small_circle*2)
 penup()
 
+
+# test
+r = Turtle()
+r.setpos(150,150)
+r.left(90)
+r.forward(100)
+r.right(90)
+r.forward(100)
+r.right(90)
+r.forward(50)
+r.right(90)
+r.forward(100)
+r.left(135)
+r.forward(90.8)
+
+

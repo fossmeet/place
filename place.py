@@ -341,9 +341,8 @@ end_fill()
 
 
 # Himanshu Dewangan
-import turtle
 
-tur=turtle.Turtle()
+tur=Turtle()
 tur.fillcolor('#f2d840')
 tur.begin_fill()
 tur.circle(100)

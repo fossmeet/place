@@ -848,4 +848,53 @@ for i in range(7):
     x=x+30
     person((x,y))
 
+#swapnil_SHARINGAN
+t = Turtle()
+def draw_circle(color, radius, x, y):
+  t.penup()
+  t.fillcolor(color,)
+  t.goto(x,y)
+  t.pendown()
+  t.begin_fill()
+  t.circle(radius)
+  t.end_fill()
+
+
+t = Turtle()
+t.color('red', 'blue')
+
+def eye():
+
+    draw_circle("Black",210, -400, -150)
+    draw_circle("Red", 196, -400, -135)
+    draw_circle("Black", 50, -400, 15)
+
+    t.color('Black', 'blue')
+    
+    draw_circle("Black",35, -520, -67)
+    t.color('red', 'blue')
+    draw_circle("Red", 35, -530, -65)
+    t.color('Black', 'blue')
+    draw_circle("Black",34, -520, -60)
+
+
+    draw_circle("Black",35, -258, -2)
+    t.color('red', 'blue')
+    draw_circle("Red", 35, -245, 0)
+    t.color('Black', 'blue')
+    draw_circle("Black",34,-260, -10)
+    
+
+    draw_circle("Black",35, -440, 155)
+    t.color('red', 'blue')
+    draw_circle("Red", 35, -455, 150)
+    t.color('Black', 'blue')
+    draw_circle("Black",34, -437, 148)
+    t.hideturtle()
+
+
+
+pensize(3)
+speed(9)
+eye()
 

@@ -847,5 +847,60 @@ x,y=-500,-400
 for i in range(7):
     x=x+30
     person((x,y))
+	
+x=x+30
+person((x,y))
 
+"""
+#All comands to make the aryabhatta hall scean
+banner_b()
+banner()
+fosswrite()
+wal_l()
+wal_r()
 
+walk()
+screen()
+speaker()
+
+#making audience
+x,y=-500,-400
+for i in range(13):
+    x=x+30
+    person((x,y))
+
+x,y=+500,-400
+for i in range(13):
+    x=x-30
+    person((x,y))
+
+x,y=-400,-300
+for i in range(10):
+    x=x+30
+    person((x,y))
+
+x,y=+400,-300
+for i in range(10):
+    x=x-30
+    person((x,y))
+
+x,y=-300,-200
+for i in range(7):
+    x=x+30
+    person((x,y))
+
+x,y=+300,-200
+for i in range(7):
+    x=x-30
+    person((x,y))
+
+#person((0,0))
+#person((30,0))
+#person((60,0))
+#person((90,0))
+#person((120,0))
+
+exitonclick()
+
+"""
+####Ashwin End###

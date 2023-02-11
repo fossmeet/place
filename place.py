@@ -847,8 +847,74 @@ x,y=-500,-400
 for i in range(7):
     x=x+30
     person((x,y))
+	
+x=x+30
+person((x,y))
 
-#swapnil_SHARINGAN
+"""
+#All comands to make the aryabhatta hall scean
+banner_b()
+banner()
+fosswrite()
+wal_l()
+wal_r()
+
+walk()
+screen()
+speaker()
+
+#making audience
+x,y=-500,-400
+for i in range(13):
+    x=x+30
+    person((x,y))
+
+x,y=+500,-400
+for i in range(13):
+    x=x-30
+    person((x,y))
+
+x,y=-400,-300
+for i in range(10):
+    x=x+30
+    person((x,y))
+
+x,y=+400,-300
+for i in range(10):
+    x=x-30
+    person((x,y))
+
+x,y=-300,-200
+for i in range(7):
+    x=x+30
+    person((x,y))
+
+x,y=+300,-200
+for i in range(7):
+    x=x-30
+    person((x,y))
+
+#person((0,0))
+#person((30,0))
+#person((60,0))
+#person((90,0))
+#person((120,0))
+
+exitonclick()
+
+"""
+x=x+30
+person((x,y))
+
+
+color('orange')
+goto(-250,150)
+write("F",align='left',move=True, font=('Courier', 50, 'bold'))
+
+
+####Ashwin End###
+
+###Swapnil_Sharingan
 t = Turtle()
 def draw_circle(color, radius, x, y):
   t.penup()
@@ -865,31 +931,34 @@ t.color('red', 'blue')
 
 def eye():
 
-    draw_circle("Black",210, -400, -150)
-    draw_circle("Red", 196, -400, -135)
-    draw_circle("Black", 50, -400, 15)
+    draw_circle("Black",105, -500, -150)
+    draw_circle("Red", 98, -500, -145)
+    draw_circle("Black", 12.5, -500, -60)
 
     t.color('Black', 'blue')
-    
-    draw_circle("Black",35, -520, -67)
+
+
+    draw_circle("Black",15, -550, -107)
     t.color('red', 'blue')
-    draw_circle("Red", 35, -530, -65)
+    draw_circle("Red", 15, -560, -105)
     t.color('Black', 'blue')
-    draw_circle("Black",34, -520, -60)
+    draw_circle("Black",14.5, -550, -100)
 
 
-    draw_circle("Black",35, -258, -2)
+    draw_circle("Black",15, -438, -52)
     t.color('red', 'blue')
-    draw_circle("Red", 35, -245, 0)
+    draw_circle("Red", 15, -445, -50)
     t.color('Black', 'blue')
-    draw_circle("Black",34,-260, -10)
-    
+    draw_circle("Black",14,-440, -60)
 
-    draw_circle("Black",35, -440, 155)
+
+
+
+    draw_circle("Black",15, -500, 5)
     t.color('red', 'blue')
-    draw_circle("Red", 35, -455, 150)
+    draw_circle("Red", 15, -505, 0)
     t.color('Black', 'blue')
-    draw_circle("Black",34, -437, 148)
+    draw_circle("Black",14, -497, 2)
     t.hideturtle()
 
 
@@ -897,4 +966,3 @@ def eye():
 pensize(3)
 speed(9)
 eye()
-

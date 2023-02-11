@@ -475,7 +475,7 @@ drawdesign()
 #import turtle
 
 # Creating a turtle object(pen)
-pen = turtle.Turtle()
+pen = Turtle()
 
 # Defining method to draw a colored circle
 # with a dynamic radius

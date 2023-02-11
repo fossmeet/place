@@ -848,7 +848,7 @@ for i in range(7):
     x=x+30
     person((x,y))
 	
-for i in range(6):
+for i in range(5):
     x=x+30
     person((x,y))
 	

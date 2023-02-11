@@ -330,5 +330,3 @@ turt.circle(30, 150)
 turt.left(180)
 turt.circle(15, 110)
 turt.circle(50, 85)
- 
-done()

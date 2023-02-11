@@ -536,8 +536,8 @@ for i in range(3):
     
     #import turtle
 
-turtle.Screen().bgcolor("black")
-turtle.speed(0)
+#turtle.Screen().bgcolor("black")
+#turtle.speed(0)
 turtle.pensize(2)
 turtle.pencolor('blue')
 
@@ -643,6 +643,6 @@ pen.setpos(0, 55)
 pen.down()
 pen.left(360)
 pen.circle(5, -180)
-pen.hideturtle()
+#pen.hideturtle()
 
 

@@ -842,7 +842,7 @@ def speaker():
     end_fill()
 	
 person((0,0))
-
+#Hey Guys Sorry i am doing 2 2 line commites 
 x,y=-500,-400
 for i in range(7):
     x=x+30
@@ -850,7 +850,8 @@ for i in range(7):
 	
 x=x+30
 person((x,y))
-
+x=x+30
+person((x,y))
 """
 #All comands to make the aryabhatta hall scean
 banner_b()

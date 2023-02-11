@@ -182,6 +182,7 @@ draw_star(10, 300, 100)
 
 # Rithas K
 # Sorry for the long lines :)
+color('white')
 home()
 penup()
 goto(320, -170)
@@ -257,3 +258,5 @@ left(135)
 forward(20)
 left(45)
 forward(20)
+
+done()

@@ -258,3 +258,75 @@ left(135)
 forward(20)
 left(45)
 forward(20)
+
+Turtle()
+ 
+pensize(5)
+penup()
+goto(-270, 300)
+
+color("black")
+pendown()
+ 
+#turn1
+left(90)   
+circle(50, 85) 
+circle(15, 110)
+right(180) 
+ 
+#turn 2
+circle(30, 150)
+right(5)
+forward(10) #draw forward line of 10 units
+ 
+#turn 3
+right(90)
+circle(-70, 140)
+forward(40)
+right(110)
+ 
+#turn 4
+circle(100, 30)
+circle(30, 100)
+left(50)
+forward(50)
+right(145)
+ 
+#turn5
+forward(30)
+left(55)
+forward(10)
+ 
+#reverse
+ 
+#turn 5
+forward(10)
+left(55)
+forward(30)
+ 
+#turn 4
+ 
+right(145)
+forward(50)
+left(50)
+circle(30, 100)
+circle(100, 30)
+ 
+#turn 3
+right(90)
+right(20)
+forward(40)
+circle(-70, 140)
+ 
+#turn 2
+right(90)
+forward(10)
+right(5)
+circle(30, 150)
+ 
+#turn 1
+left(180)
+circle(15, 110)
+circle(50, 85)
+
+penup()

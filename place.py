@@ -906,4 +906,6 @@ exitonclick()
 x=x+30
 person((x,y))
 
+x=x+30
+person((x,y))
 ####Ashwin End###

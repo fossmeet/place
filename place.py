@@ -258,5 +258,3 @@ left(135)
 forward(20)
 left(45)
 forward(20)
-
-done()

@@ -910,4 +910,9 @@ color('orange')
 goto(-250,150)
 write("F",align='left',move=True, font=('Courier', 50, 'bold'))
 
+pen.penup()
+pen.goto(-200,+200)
+pen.pendown()
+pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 16, "bold"))         
+
 ####Ashwin End###

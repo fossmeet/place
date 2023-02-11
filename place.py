@@ -905,6 +905,7 @@ exitonclick()
 """
 x=x+30
 person((x,y))
+
 goto(30,80)
 color(str(randomColor()))
 write("Inauguration and opening Note ",align='left',move=True, font=('ariel', 12, 'normal'))

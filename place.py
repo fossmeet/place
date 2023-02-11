@@ -450,19 +450,23 @@ penup()
 
 
 
+
+turtle=Turtle()    
+    #import turtlew
+turtle.goto(-150,-200)
 #turtle.Screen().bgcolor("black")
-#turtle.speed(0)
+turtle.speed(0)
 turtle.pensize(2)
-turtle.pencolor('blue')
+turtle.pencolor('yellow')
 
 def drawcircle(radius):
-  for i in range(10):
+  for i in range(5):
     turtle.circle(radius)
     radius=radius-4
     
 def drawdesign():
   for i in range(10):
-    drawcircle(150)
+    drawcircle(50)
     turtle.right(36)
     
     
@@ -475,7 +479,7 @@ drawdesign()
 #import turtle
 
 # Creating a turtle object(pen)
-pen = turtle.Turtle()
+pen = Turtle()
 
 # Defining method to draw a colored circle
 # with a dynamic radius
@@ -558,19 +562,4 @@ pen.down()
 pen.left(360)
 pen.circle(5, -180)
 #pen.hideturtle()
-
-# test
-r = Turtle()
-r.setpos(150,150)
-r.left(90)
-r.forward(100)
-r.right(90)
-r.forward(100)
-r.right(90)
-r.forward(50)
-r.right(90)
-r.forward(100)
-r.left(135)
-r.forward(90.8)
-
 

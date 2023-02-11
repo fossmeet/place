@@ -259,8 +259,7 @@ forward(20)
 left(45)
 forward(20)
 
-Turtle()
- 
+home() 
 pensize(5)
 penup()
 goto(-270, 300)

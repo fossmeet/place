@@ -146,7 +146,6 @@ def curve(): # Method to draw curve
 
 def heart():  # Method to draw full Heart
 
-    red.begin_fill()
     red.left(140)
     red.forward(113)
     curve() # Left Curve

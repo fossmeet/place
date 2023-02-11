@@ -449,6 +449,20 @@ forward(small_circle*2)
 penup()
 
 
+#swapnil
+t = Turtle()
+t.pensize(5)
+t.color("green")
+t.penup()
+t.setpos(-500,40)
+t.pendown()
+t.forward(30)
+t.backward(30)
+
+t.circle(-90,-185)
+t.circle(90,-250)
+
+
 
 #turtle.Screen().bgcolor("black")
 #turtle.speed(0)
@@ -833,4 +847,5 @@ x,y=-500,-400
 for i in range(7):
     x=x+30
     person((x,y))
+
 

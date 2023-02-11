@@ -13,6 +13,26 @@ setx(640)
 setpos((0, -170))
 end_fill()
 
+##madhav
+t = Turtle()
+t.color("yellow")
+t.penup()
+t.setpos(100,100)
+t.begin_fill()
+
+t.circle(40, 300)
+t.left(90)
+t.forward(40)
+t.right(120)
+t.forward(40)
+t.end_fill()
+
+t.penup()
+
+
+t.hideturtle()
+##endmadhav
+
 fillcolor('#d70a53')
 begin_fill()
 sety(-512)
@@ -43,6 +63,21 @@ begin_fill()
 circle(23)
 end_fill()
 
+
+
+# spidy
+
+color('red')
+fillcolor('blue')
+begin_fill()
+fd(200)
+left(90)
+fd(5)
+left(90)
+fd(200)
+left(5)
+end_fill()
+write("FOSSMEET", font=("Arial", 20, "normal"))
 # my code
 
 forward(20)
@@ -56,7 +91,7 @@ forward(260)
 pen = Turtle()
 pen.color("black")
 pen.pensize(3)
-pen.speed(10)
+pen.speed(0)
 pen.hideturtle()
 pen.penup()
 pen.goto(-500,100)
@@ -89,27 +124,32 @@ pen.write("                                        |_|                          
 #------------------#
 
 
-# Debian - Spiral Helix
-colors = ['red', 'purple', 'blue', 'green', 'orange', 'yellow']
-def create_spiral_helix():
-    setx(0)
-    sety(0)
-    speed(0)
-    for i in range(10):
-        fillcolor(colors[i%6])
-        begin_fill()
-        circle(5*i)
-        circle(-5*i)
-        left(i)
-        end_fill()
-    speed(5)
+#LEAF VILLAGE MWUHAHAHA
 
-create_spiral_helix()
-if __name__ == "__main__":
-    create_spiral_helix()
-else:
-    create_spiral_helix()
+a = Turtle()
+a.penup()
+a.goto(0,300)
+a.pendown()
+a.width(5)
 
+
+for i in range(38):
+    a.forward(i)
+    a.right(20)
+
+a.left(90)
+a.forward(100)
+a.penup()
+a.goto(-100,300)
+a.pendown()
+a.right(150)
+a.forward(100)
+a.left(113)
+a.forward(100)
+
+a.penup()
+a.goto(0,0)
+a.pendown()
 
 #Ashwin
 red =Turtle()
@@ -133,4 +173,180 @@ while i<75:
     forward(40)
     left(170)
     i+=1
+
+setpos(100,100)
+fillcolor('red')
+begin_fill()
+circle(34)
+end_fill()
+
+#Alen
+def draw_star(size, x, y):
+
+    penup()
+    goto(x, y)
+    pendown()
+    for i in range(5):
+        forward(size)
+        right(144)
+
+draw_star(10, 300, 100)
+
+# Rithas K
+# Sorry for the long lines :)
+color('white')
+home()
+penup()
+goto(320, -170)
+pendown()
+left(60)
+forward(100)
+right(90)
+forward(75)
+right(90)
+forward(20)
+right(90)
+forward(50)
+left(90)
+forward(20)
+left(90)
+forward(50)
+right(90)
+forward(20)
+right(90)
+forward(50)
+left(90)
+forward(40)
+right(90)
+forward(25)
+
+left(135)
+forward(20)
+left(45)
+forward(25)
+left(135)
+forward(20)
+
+left(180)
+forward(20)
+left(135)
+forward(40)
+left(45)
+forward(20)
+
+left(180)
+forward(20)
+left(45)
+forward(50)
+left(135)
+forward(20)
+
+left(180)
+forward(20)
+left(135)
+forward(20)
+left(45)
+forward(20)
+
+penup()
+goto(382, -114)
+pendown()
+
+left(180)
+forward(20)
+right(45)
+forward(5)
+
+left(180)
+forward(5)
+right(90)
+forward(50)
+left(135)
+forward(20)
+
+left(180)
+forward(20)
+left(135)
+forward(20)
+left(45)
+forward(20)
+
+penup()
+
+Turtle()
+ 
+home()
+pensize(5)
+penup()
+goto(-270, 300)
+
+color("black")
+pendown()
+ 
+#turn1
+left(90)   
+circle(50, 85) 
+circle(15, 110)
+right(180) 
+ 
+#turn 2
+circle(30, 150)
+right(5)
+forward(10) #draw forward line of 10 units
+ 
+#turn 3
+right(90)
+circle(-70, 140)
+forward(40)
+right(110)
+ 
+#turn 4
+circle(100, 30)
+circle(30, 100)
+left(50)
+forward(50)
+right(145)
+ 
+#turn5
+forward(30)
+left(55)
+forward(10)
+ 
+#reverse
+ 
+#turn 5
+forward(10)
+left(55)
+forward(30)
+ 
+#turn 4
+ 
+right(145)
+forward(50)
+left(50)
+circle(30, 100)
+circle(100, 30)
+ 
+#turn 3
+right(90)
+right(20)
+forward(40)
+circle(-70, 140)
+ 
+#turn 2
+right(90)
+forward(10)
+right(5)
+circle(30, 150)
+ 
+#turn 1
+left(180)
+circle(15, 110)
+circle(50, 85)
+
+penup()
+#dracu
+fillcolor('#d70a53')
+begin_fill()
+circle(23)
 end_fill()

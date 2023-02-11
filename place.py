@@ -259,74 +259,74 @@ forward(20)
 left(45)
 forward(20)
 
-
-turt = Turtle()
+Turtle()
  
-turt.turtlesize(1, 1, 1)
-turt.pensize(5)
-turt.penup()
-turt.goto(-270, 300)
+pensize(5)
+penup()
+goto(-270, 300)
 
-turt.color("black")
-turt.pendown()
+color("black")
+pendown()
  
 #turn1
-turt.left(90)   
-turt.circle(50, 85) 
-turt.circle(15, 110)
-turt.right(180) 
+left(90)   
+circle(50, 85) 
+circle(15, 110)
+right(180) 
  
 #turn 2
-turt.circle(30, 150)
-turt.right(5)
-turt.forward(10) #draw forward line of 10 units
+circle(30, 150)
+right(5)
+forward(10) #draw forward line of 10 units
  
 #turn 3
-turt.right(90)
-turt.circle(-70, 140)
-turt.forward(40)
-turt.right(110)
+right(90)
+circle(-70, 140)
+forward(40)
+right(110)
  
 #turn 4
-turt.circle(100, 30)
-turt.circle(30, 100)
-turt.left(50)
-turt.forward(50)
-turt.right(145)
+circle(100, 30)
+circle(30, 100)
+left(50)
+forward(50)
+right(145)
  
 #turn5
-turt.forward(30)
-turt.left(55)
-turt.forward(10)
+forward(30)
+left(55)
+forward(10)
  
 #reverse
  
 #turn 5
-turt.forward(10)
-turt.left(55)
-turt.forward(30)
+forward(10)
+left(55)
+forward(30)
  
 #turn 4
  
-turt.right(145)
-turt.forward(50)
-turt.left(50)
-turt.circle(30, 100)
-turt.circle(100, 30)
+right(145)
+forward(50)
+left(50)
+circle(30, 100)
+circle(100, 30)
  
 #turn 3
-turt.right(90)
-turt.right(20)
-turt.forward(40)
-turt.circle(-70, 140)
+right(90)
+right(20)
+forward(40)
+circle(-70, 140)
  
 #turn 2
-turt.right(90)
-turt.forward(10)
-turt.right(5)
-turt.circle(30, 150)
+right(90)
+forward(10)
+right(5)
+circle(30, 150)
  
 #turn 1
-turt.left(180)
-turt.circle(15, 110)
-turt.circle(50, 85)
+left(180)
+circle(15, 110)
+circle(50, 85)
+
+penup()

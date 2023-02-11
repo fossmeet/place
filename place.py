@@ -448,3 +448,44 @@ pendown()
 forward(small_circle*2)
 penup()
 
+#######ASHWIN######
+
+def randomColor():
+    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+    return color
+
+
+
+def person(pos):
+    penup()
+
+    height=random.choice([20,15])
+
+    goto(pos)
+    fillcolor(str(randomColor()))
+    seth(0)
+    begin_fill()
+    fd(height)
+    left(90)
+    fd(height)
+    circle(height/2,180)
+    fd(height)
+    end_fill()
+
+    #Head
+    fillcolor(str(randomColor()))
+    seth(0)
+    begin_fill()
+    goto(pos[0]+height*0.5,pos[1]+height*1.7)
+    circle(height/2)
+
+    if (random.choice([True,False])):
+        print("Stamped")
+        stamp()
+        seth(180)
+        stamp()
+
+    end_fill()
+
+person((0,0))#just testing
+#######END ASHWIN######

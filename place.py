@@ -167,6 +167,25 @@ begin_fill()
 circle(34)
 end_fill()
 
+~AnJoMA~
+t = turtle.Turtle()
+s = 50
+# drawing first side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing second side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing third side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+ 
+# drawing fourth side
+t.forward(s) # Forward turtle by s units
+t.left(90) # Turn turtle by 90 degree
+
 #Alen
 def draw_star(size, x, y):
 

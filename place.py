@@ -337,3 +337,69 @@ fillcolor('#d70a53')
 begin_fill()
 circle(23)
 end_fill()
+
+
+
+# Himanshu Dewangan
+import turtle
+
+tur=turtle.Turtle()
+tur.fillcolor('#f2d840')
+tur.begin_fill()
+tur.circle(100)
+tur.end_fill()
+tur.up()
+
+tur.goto(-40, 120)
+tur.down()
+tur.fillcolor('white')
+tur.begin_fill()
+tur.circle(18)
+tur.end_fill()
+tur.up()
+
+tur.goto(-37, 125)
+tur.down()
+tur.fillcolor('black')
+tur.begin_fill()
+tur.circle(7)
+tur.end_fill()
+tur.up()
+
+tur.goto(40, 120)
+tur.down()
+tur.fillcolor('white')
+tur.begin_fill()
+tur.circle(18)
+tur.end_fill()
+tur.up()
+
+tur.goto(40, 125)
+tur.down()
+tur.fillcolor('black')
+tur.begin_fill()
+tur.circle(7)
+tur.end_fill()
+tur.up()
+
+tur.goto(-40, 85)
+tur.down()
+tur.right(90)
+tur.circle(40, 180)
+tur.up()
+
+tur.goto(-40, 85)
+tur.down()
+tur.right(136)
+tur.circle(56, 90)
+tur.up()
+
+tur.goto(-450, -150)
+tur.write("FOSSMEET'23...", font=("Indie Flower",30))
+
+tur.goto(150, -150)
+turtle.speed(3)
+tur.write("HEY, KEEP SMILING...", font=("Indie Flower",30))
+
+# End
+# Himanshu Dewangan

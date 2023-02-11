@@ -130,6 +130,7 @@ pen.pensize(3)
 pen.speed(0)
 pen.hideturtle()
 pen.penup()
+pen.goto(100,100)
 pen.pendown()
 pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))         
 

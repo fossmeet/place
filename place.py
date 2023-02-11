@@ -847,5 +847,53 @@ x,y=-500,-400
 for i in range(7):
     x=x+30
     person((x,y))
+	
+for i in range(6):
+    x=x+30
+    person((x,y))
+	
+"""
+#My Commands to run to get the aryabhatta hall in turtle
+banner_b()
+banner()
+fosswrite()
+wal_l()
+wal_r()
 
+walk()
+screen()
+speaker()
 
+#making audience
+x,y=-500,-400
+for i in range(13):
+    x=x+30
+    person((x,y))
+
+x,y=+500,-400
+for i in range(13):
+    x=x-30
+    person((x,y))
+
+x,y=-400,-300
+for i in range(10):
+    x=x+30
+    person((x,y))
+
+x,y=+400,-300
+for i in range(10):
+    x=x-30
+    person((x,y))
+
+x,y=-300,-200
+for i in range(7):
+    x=x+30
+    person((x,y))
+
+x,y=+300,-200
+for i in range(7):
+    x=x-30
+    person((x,y))
+    
+"""
+####Ashwin END

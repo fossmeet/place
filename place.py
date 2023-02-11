@@ -851,6 +851,11 @@ for i in range(7):
 x=x+30
 person((x,y))
 
+x=x+30
+person((x,y))
+
+#Sorry i am adding oneperson line at a time
+#As for loop is not working
 """
 #All comands to make the aryabhatta hall scean
 banner_b()

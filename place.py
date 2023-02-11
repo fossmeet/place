@@ -452,6 +452,7 @@ penup()
 
 #turtle.Screen().bgcolor("black")
 #turtle.speed(0)
+turtle=Turtle()
 turtle.pensize(2)
 turtle.pencolor('blue')
 

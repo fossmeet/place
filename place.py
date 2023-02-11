@@ -910,4 +910,9 @@ color('orange')
 goto(-250,150)
 write("F",align='left',move=True, font=('Courier', 50, 'bold'))
 
+x,y=+500,-400
+for i in range(2):
+    x=x-30
+    person((x,y))
+
 ####Ashwin End###

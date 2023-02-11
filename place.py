@@ -133,6 +133,7 @@ pen.penup()
 pen.pendown()
 pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))         
 pen.sety(-20)
+
 pen.write(" /$$__  $$          | $$                    |__/          ",align="left", font=("monospace", 8, "normal"))
 
 ##

@@ -828,3 +828,9 @@ def speaker():
     end_fill()
 	
 person((0,0))
+
+x,y=-500,-400
+for i in range(13):
+    x=x+30
+    person((x,y))
+

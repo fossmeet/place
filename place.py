@@ -1,6 +1,6 @@
 from turtle import *
 import random
-
+tracer(False)
 Screen().setup(width=1.0, height=1.0)
 speed(0)
 
@@ -122,7 +122,51 @@ pen.write("                                        |_|                          
 # nee shooperada   #
 #------------------#
 
+##Learning From Nee
+#Trying to write Ashwin
+pen = Turtle()
+pen.color("black")
+pen.pensize(3)
+pen.speed(0)
+pen.hideturtle()
+pen.penup()
+pen.pendown()
+pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))         
 
+pen.penup()
+pen.goto(-500,-20)
+pen.pendown()
+#pen.write("  /$$$$$$            /$$                     /$$          ",align="left", font=("monospace", 8, "normal"))   
+
+red = Turtle()
+def curve(): # Method to draw curve
+    for i in range(200): # To draw the curve step by step
+        red.right(1)
+        red.forward(1)
+
+def heart():  # Method to draw full Heart
+
+    red.left(140)
+    red.forward(113)
+    curve() # Left Curve
+    red.left(120)
+    curve() # Right Curve
+    red.forward(112)
+
+heart()
+
+"""
+Want to write this
+ /$$$$$$            /$$                     /$$          
+ /$$__  $$          | $$                    |__/          
+| $$  \ $$  /$$$$$$$| $$$$$$$  /$$  /$$  /$$ /$$ /$$$$$$$ 
+| $$$$$$$$ /$$_____/| $$__  $$| $$ | $$ | $$| $$| $$__  $$
+| $$__  $$|  $$$$$$ | $$  \ $$| $$ | $$ | $$| $$| $$  \ $$
+| $$  | $$ \____  $$| $$  | $$| $$ | $$ | $$| $$| $$  | $$
+| $$  | $$ /$$$$$$$/| $$  | $$|  $$$$$/$$$$/| $$| $$  | $$
+|__/  |__/|_______/ |__/  |__/ \_____/\___/ |__/|__/  |__/
+"""
+##
 #LEAF VILLAGE MWUHAHAHA
 
 a = Turtle()
@@ -453,3 +497,466 @@ begin_fill()
 sety(-250)
 circle(30)
 end_fill()
+
+#swapnil
+t = Turtle()
+t.pensize(5)
+t.color("green")
+t.penup()
+t.setpos(-500,40)
+t.pendown()
+t.forward(30)
+t.backward(30)
+
+t.circle(-90,-185)
+t.circle(90,-250)
+
+
+
+#turtle.Screen().bgcolor("black")
+#turtle.speed(0)
+turtle=Turtle()
+turtle.pensize(2)
+turtle.pencolor('blue')
+
+def drawcircle(radius):
+  for i in range(10):
+    turtle.circle(radius)
+    radius=radius-4
+    
+def drawdesign():
+  for i in range(10):
+    drawcircle(150)
+    turtle.right(36)
+    
+    
+    
+drawdesign()
+#turtle.done()
+
+# Draw a Panda using Turtle Graphics
+# Import turtle package
+#import turtle
+
+# Creating a turtle object(pen)
+pen = Turtle()
+
+# Defining method to draw a colored circle
+# with a dynamic radius
+def ring(col, rad):
+
+	# Set the fill
+	pen.fillcolor(col)
+
+	# Start filling the color
+	pen.begin_fill()
+
+	# Draw a circle
+	pen.circle(rad)
+
+	# Ending the filling of the color
+	pen.end_fill()
+
+
+# Draw first ear
+pen.up()
+pen.setpos(-35, 95)
+pen.down
+ring('black', 15)
+
+# Draw second ear
+pen.up()
+pen.setpos(35, 95)
+pen.down()
+ring('black', 15)
+
+##### Draw face #####
+pen.up()
+pen.setpos(0, 35)
+pen.down()
+ring('white', 40)
+
+##### Draw eyes black #####
+
+# Draw first eye
+pen.up()
+pen.setpos(-18, 75)
+pen.down
+ring('black', 8)
+
+# Draw second eye
+pen.up()
+pen.setpos(18, 75)
+pen.down()
+ring('black', 8)
+
+##### Draw eyes white #####
+
+# Draw first eye
+pen.up()
+pen.setpos(-18, 77)
+pen.down()
+ring('white', 4)
+
+# Draw second eye
+pen.up()
+pen.setpos(18, 77)
+pen.down()
+ring('white', 4)
+
+##### Draw nose #####
+pen.up()
+pen.setpos(0, 55)
+pen.down
+ring('black', 5)
+
+##### Draw mouth #####
+pen.up()
+pen.setpos(0, 55)
+pen.down()
+pen.right(90)
+pen.circle(5, 180)
+pen.up()
+pen.setpos(0, 55)
+pen.down()
+pen.left(360)
+pen.circle(5, -180)
+#pen.hideturtle()
+
+# test
+r = Turtle()
+r.setpos(150,150)
+r.left(90)
+r.forward(100)
+r.right(90)
+r.forward(100)
+r.right(90)
+r.forward(50)
+r.right(90)
+r.forward(100)
+r.left(135)
+r.forward(90.8)
+
+
+# Ubuntu by Alen
+forward(500)
+pendown()
+bgcolor('black')
+col = '#DD4814'
+R = 75
+r = 38.91*R/100
+w = 19.25*R/100
+r2 = 13.39*R/100
+r3 = 5.02*R/100
+h = 3.77*R/100
+l = 68.62*R/100
+color(col)
+up()
+fd(R)
+lt(90)
+down()
+begin_fill()
+circle(R)
+end_fill()
+up()
+color('white')
+lt(90)
+fd(R-(r+w))
+rt(90)
+down()
+begin_fill()
+circle(r+w)
+end_fill()
+up()
+lt(90)
+color(col)
+fd(w)
+rt(90)
+down()
+begin_fill()
+circle(r)
+end_fill()
+up()
+lt(90)
+fd(r)
+rt(120)
+down()
+color('white')
+for i in range(3):
+    up()
+    fd(l+r2+r3)
+    lt(90)
+    down()
+    color(col)
+    begin_fill()
+    circle(r2+r3)
+    end_fill()
+    up()
+    lt(90)
+    fd(r3)
+    rt(90)
+    color('white')
+    down()
+    begin_fill()
+    circle(r2)
+    end_fill()
+    up()
+    color('white')
+    lt(90)
+    fd(l+r2)
+    rt(90)
+    down()
+    color(col)
+    begin_fill()
+    fd(h)
+    lt(90)
+    fd(r+w)
+    lt(90)
+    fd(h*2)
+    lt(90)
+    fd(r+w)
+    lt(90)
+    fd(h)
+    end_fill()
+    up()
+    lt(30)
+
+
+def randomColor():
+    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+    return color
+
+def walk():
+    fillcolor("#FF0000")
+    w,h=60,384
+    goto(0,-512)
+    seth(0)
+    begin_fill()
+    setx(w+30)
+    goto(w,-128)
+    setx(-w)
+    goto(-w-30,-512)
+    goto(0,-512)
+    end_fill()
+
+def banner_b():
+    fillcolor("#B2BEB5")
+    w,h=1280/2,384
+    goto(-320,-128)
+    seth(0)
+    begin_fill()
+    setx(+320)
+    sety(256)
+    setx(-320)
+    end_fill()
+
+def banner():
+    fillcolor("#F4DEC6")
+    w,h=1280/2,384
+    goto(-320+10,-128+10)
+    seth(0)
+    begin_fill()
+    setx(+320-10)
+    sety(256-10)
+    setx(-320+10)
+    end_fill()
+
+def screen():
+    fillcolor("#FFFFFF")
+    goto(20,-100)
+    seth(0)
+    begin_fill()
+    setx(+300)
+    sety(100)
+    setx(20)
+    sety(-100)
+    end_fill()
+    
+    goto(30,80)
+    color(str(randomColor()))
+    write("Inauguration and opening Note ",align='left',move=True, font=('ariel', 12, 'normal'))
+
+    goto(30,50)
+    color(str(randomColor()))
+    write("Future of Foss",align='left',move=True, font=('ariel', 12, 'normal'))
+
+    goto(30,20)
+    color(str(randomColor()))
+    write("Paperd.ink's Journey ",align='left',move=True, font=('ariel', 12, 'normal'))
+
+
+    goto(30,-10)
+    color(str(randomColor()))
+    write("Git's Bit",align='left',move=True, font=('ariel', 12, 'normal'))
+  
+    goto(30,-40)
+    color(str(randomColor()))
+    write("Introduction to Debian GNU/Linux",align='left',move=True, font=('ariel', 12, 'normal'))
+  
+    goto(30,-70)
+    color(str(randomColor()))
+    write("AI for solving regional problems",align='left',move=True, font=('ariel', 12, 'normal'))
+
+
+
+def fosswrite():
+    color('orange')
+    goto(-250,150)
+    write("FOSSMEET ' 23",align='left',move=True, font=('Courier', 50, 'bold'))
+
+def wal_l():
+    fillcolor("#835F5F")
+    goto(-640,-512)
+    seth(0)
+    begin_fill()
+    goto(-320,-128)
+    sety(256)
+    goto(-640,+512)
+    end_fill()
+
+def wal_r():
+    fillcolor("#835F5F")
+    goto(+640,-512)
+    seth(0)
+    begin_fill()
+    goto(+320,-128)
+    sety(256)
+    goto(+640,+512)
+    end_fill()
+
+def person(pos):
+    penup()
+
+    height=random.choice([21,22,19,20,15])
+
+    goto(pos)
+    fillcolor(str(randomColor()))
+    seth(0)
+    begin_fill()
+    fd(height)
+    left(90)
+    fd(height)
+    circle(height/2,180)
+    fd(height)
+    end_fill()
+
+    #Head
+    hed_clr=str(randomColor())
+    fillcolor(hed_clr)
+    seth(0)
+    begin_fill()
+    goto(pos[0]+height*0.5,pos[1]+height*1.7)
+    circle(height/2)
+    color(hed_clr)
+    if (random.choice([True,False])):
+       
+        stamp()
+        seth(180)
+        stamp()
+
+    end_fill()
+
+def speaker():
+    pos=(-230,-100)
+    penup()
+
+    height=30
+
+    goto(pos)
+    fillcolor('#FFD700')
+    color('#FFD700')
+    seth(0)
+    begin_fill()
+    fd(height)
+    left(90)
+    fd(height)
+    circle(height/2,180)
+    fd(height)
+    end_fill()
+
+    #Head
+    fillcolor('#FFD700')
+    seth(0)
+    begin_fill()
+    goto(pos[0]+height*0.5,pos[1]+height*1.7)
+    circle(height/2)
+    """
+    if (random.choice([True,False])):
+        print("Stamped")
+        stamp()
+        seth(180)
+        stamp()
+    """
+
+    end_fill()
+	
+person((0,0))
+
+x,y=-500,-400
+for i in range(7):
+    x=x+30
+    person((x,y))
+	
+x=x+30
+person((x,y))
+
+"""
+#All comands to make the aryabhatta hall scean
+banner_b()
+banner()
+fosswrite()
+wal_l()
+wal_r()
+
+walk()
+screen()
+speaker()
+
+#making audience
+x,y=-500,-400
+for i in range(13):
+    x=x+30
+    person((x,y))
+
+x,y=+500,-400
+for i in range(13):
+    x=x-30
+    person((x,y))
+
+x,y=-400,-300
+for i in range(10):
+    x=x+30
+    person((x,y))
+
+x,y=+400,-300
+for i in range(10):
+    x=x-30
+    person((x,y))
+
+x,y=-300,-200
+for i in range(7):
+    x=x+30
+    person((x,y))
+
+x,y=+300,-200
+for i in range(7):
+    x=x-30
+    person((x,y))
+
+#person((0,0))
+#person((30,0))
+#person((60,0))
+#person((90,0))
+#person((120,0))
+
+exitonclick()
+
+"""
+x=x+30
+person((x,y))
+
+color('orange')
+goto(-250,150)
+write("F",align='left',move=True, font=('Courier', 50, 'bold'))
+
+####Ashwin End###

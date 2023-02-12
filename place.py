@@ -979,6 +979,7 @@ write("F",align='left',move=True, font=('Courier', 50, 'bold'))
 
 
 # Alen Biju
+home()
 pensize(5)
 color('black')
 pu()

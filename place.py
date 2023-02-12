@@ -382,6 +382,22 @@ begin_fill()
 circle(23)
 end_fill()
 
+#Sidharth
+t=Turtle()
+t.penup()
+t.setpos(172,172)
+t.pendown()
+t.circle(5,72)
+t.forward(10)
+t.circle(5,72)
+t.forward(10)
+t.circle(5,72)
+t.forward(10)
+t.circle(5,72)
+t.forward(10)
+t.circle(5,72)
+t.forward(10)
+#End Sidharth
 
 # Himanshu Dewangan
 

@@ -492,6 +492,11 @@ pendown()
 forward(small_circle*2)
 penup()
 
+fillcolor('#000000')
+begin_fill()
+sety(-250)
+circle(30)
+end_fill()
 
 #swapnil
 t = Turtle()

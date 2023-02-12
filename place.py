@@ -1044,6 +1044,5 @@ circle(-2)
 end_fill()
 penup()
 hideturtle()
-done()
 
 # End Alen Biju

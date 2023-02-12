@@ -1067,3 +1067,60 @@ penup()
 hideturtle()
 
 # End Alen Biju
+
+
+# Himanshu Dewangan
+# Smile
+tur=Turtle()
+tur.fillcolor('#f9d400')
+tur.begin_fill()
+tur.circle(100)
+tur.end_fill()
+tur.up()
+
+tur.goto(160, 320)
+tur.down()
+tur.fillcolor('white')
+tur.begin_fill()
+tur.circle(18)
+tur.end_fill()
+tur.up()
+
+tur.goto(163, 325)
+tur.down()
+tur.fillcolor('black')
+tur.begin_fill()
+tur.circle(7)
+tur.end_fill()
+tur.up()
+
+tur.goto(240, 320)
+tur.down()
+tur.fillcolor('white')
+tur.begin_fill()
+tur.circle(18)
+tur.end_fill()
+tur.up()
+
+tur.goto(240, 325)
+tur.down()
+tur.fillcolor('black')
+tur.begin_fill()
+tur.circle(7)
+tur.end_fill()
+tur.up()
+
+tur.goto(160, 285)
+tur.down()
+tur.right(90)
+tur.circle(40, 180)
+tur.up()
+
+tur.goto(160, 285)
+tur.down()
+tur.right(136)
+tur.circle(56, 90)
+tur.up()
+
+# End
+# Himanshu Dewangan

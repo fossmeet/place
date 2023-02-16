@@ -1,5 +1,13 @@
 # place.git
 
+This repo was the canvas code for place.git during FOSSMeet'23. The final canvas was the following.
+
+![canvas](./canvas.png)
+
+A special shoutout to everyone that participated. The original README shown below.
+
+---
+
 Kinda like r/place, but with git. Fork this repo, add your python turtle code and make a PR. We'll see where we end up!
 
 We have a 1280x1024 [canvas](https://place.fossmeet.net) where you can draw anything your heart desires.
